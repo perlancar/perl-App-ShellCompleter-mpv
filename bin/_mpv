@@ -9,7 +9,7 @@
 use 5.010001;
 use strict;
 use warnings;
-use Log::Any '$log';
+#use Log::Any '$log';
 
 use Complete::Number qw(complete_int complete_float);
 use Complete::Util qw(complete_array_elem combine_answers complete_file);
@@ -31,7 +31,7 @@ GetOptionsWithCompletion(
         } elsif ($type eq 'optval') {
             my $ospec = $args{ospec};
             my $opt   = $args{opt};
-            $log->tracef("Completing optval (opt=$opt)");
+            #$log->tracef("Completing optval (opt=$opt)");
             if ($ospec eq 'ad-lavc-ac3drc=f') {
                 return complete_float(word=>$word, min=>0, max=>2);
             } elsif ($ospec eq 'ad-lavc-threads=i') {
