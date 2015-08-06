@@ -529,3 +529,5 @@ or, you can use L<shcompgen> to do that for you automatically.
 Now L<mpv> has bash completion:
 
  % mpv --shu<tab>
+
+Last updated for L<mpv> version B<0.6.2>.
