@@ -1,5 +1,12 @@
 Revision history for App-ShellCompleter-mpv
 
+0.02    2015-08-06 (PERLANCAR)
+
+        - Remove the use of Log::Any to reduce startup overhead.
+
+        - [doc] Mention the version of mpv supported.
+
+
 0.01    2015-08-06 (PERLANCAR)
 
 	- First release (not all option values are completed yet, boy mpv has a
