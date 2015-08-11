@@ -1,5 +1,14 @@
 Revision history for App-ShellCompleter-mpv
 
+0.03    2015-08-11 (PERLANCAR)
+
+	- Use ShellCompleter::Util to be more DRY, complete the rest of the
+	  options' values.
+
+	- [pod] Don't linkify non-perl program mpv because they generally
+	  won't work in MetaCPAN etc.
+
+
 0.02    2015-08-06 (PERLANCAR)
 
         - Remove the use of Log::Any to reduce startup overhead.
