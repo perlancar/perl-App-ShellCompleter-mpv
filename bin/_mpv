@@ -11,8 +11,9 @@ use strict;
 use warnings;
 #use Log::Any '$log';
 
+use Complete::File qw(complete_file);
 use Complete::Number qw(complete_int complete_float);
-use Complete::Util qw(complete_array_elem combine_answers complete_file);
+use Complete::Util qw(complete_array_elem combine_answers);
 use ShellCompleter::Util qw(run_shell_completer_for_getopt_long_app);
 
 sub _gcint {
