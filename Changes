@@ -1,5 +1,11 @@
 Revision history for App-ShellCompleter-mpv
 
+0.04    2015-09-17 (PERLANCAR)
+
+	- Adjust to Complete::Util 0.36 (complete_file() split to
+	  Complete-File).
+
+
 0.03    2015-08-11 (PERLANCAR)
 
 	- Use ShellCompleter::Util to be more DRY, complete the rest of the
