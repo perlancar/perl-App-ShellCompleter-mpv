@@ -573,5 +573,3 @@ or, you can use L<shcompgen> to do that for you automatically.
 Now B<mpv> has bash completion:
 
  % mpv --shu<tab>
-
-Last updated for B<mpv> version B<0.6.2>.
