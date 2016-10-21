@@ -14,6 +14,7 @@ use warnings;
 use Complete::File qw(complete_file);
 use Complete::Number qw(complete_int complete_float);
 use Complete::Util qw(complete_array_elem combine_answers);
+use Getopt::Long::Complete; ;# just so it can be detected as Getopt::Long script by Getopt::Long::Util
 use ShellCompleter::Util qw(run_shell_completer_for_getopt_long_app);
 
 sub _gcint {
