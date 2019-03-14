@@ -15,8 +15,10 @@ use App::ShellCompleter::mpv;
 use Getopt::Long::Complete; ;# just so it can be detected as Getopt::Long script by Getopt::Long::Util
 use ShellCompleter::Util qw(run_shell_completer_for_getopt_long_app);
 
+
 {
     no warnings 'once';
+    binmode(STDOUT, ":encoding(utf8)");
     run_shell_completer_for_getopt_long_app(
         %App::ShellCompleter::mpv::scargs,
     );
