@@ -1,28 +1,28 @@
-0.061   2019-03-14 (PERLANCAR)
+0.061   2019-03-14  Released-By: PERLANCAR
 
 	- Add binmode(STDOUT,utf8) to avoid perl's wide character output
 	  warning.
 
 
-0.060   2018-12-05 (PERLANCAR)
+0.060   2018-12-05  Released-By: PERLANCAR
 
 	- [refactor] Extract list of options to module so it's usable by
 	  other code.
 
 
-0.05    2016-10-21 (PERLANCAR)
+0.05    2016-10-21  Released-By: PERLANCAR
 
 	- Allow script to be detected by Getopt::Long::util as Getopt::Long
 	  script.
 
 
-0.04    2015-09-17 (PERLANCAR)
+0.04    2015-09-17  Released-By: PERLANCAR
 
 	- Adjust to Complete::Util 0.36 (complete_file() split to
 	  Complete-File).
 
 
-0.03    2015-08-11 (PERLANCAR)
+0.03    2015-08-11  Released-By: PERLANCAR
 
 	- Use ShellCompleter::Util to be more DRY, complete the rest of the
 	  options' values.
@@ -31,14 +31,14 @@
 	  won't work in MetaCPAN etc.
 
 
-0.02    2015-08-06 (PERLANCAR)
+0.02    2015-08-06  Released-By: PERLANCAR
 
         - Remove the use of Log::Any to reduce startup overhead.
 
         - [doc] Mention the version of mpv supported.
 
 
-0.01    2015-08-06 (PERLANCAR)
+0.01    2015-08-06  Released-By: PERLANCAR
 
 	- First release (not all option values are completed yet, boy mpv has a
           LOT of options).
