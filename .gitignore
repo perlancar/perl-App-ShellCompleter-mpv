@@ -2,3 +2,4 @@ App-ShellCompleter-mpv-*
 .build
 *~
 nytprof*
+.DS_Store
